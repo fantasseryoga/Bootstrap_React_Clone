@@ -1,6 +1,6 @@
 import React from 'react'
 import Search from './ComponentsComponents/Search'
-import { BrowserRouter,Route,Switch, Router } from 'react-router-dom'
+import { BrowserRouter,Route,Switch } from 'react-router-dom'
 import { Col, Row, Container} from 'react-bootstrap'
 import Alerts from './ComponentsComponents/Alerts'
 import Acordion from './ComponentsComponents/Acordion'

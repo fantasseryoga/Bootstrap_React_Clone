@@ -25,8 +25,10 @@ class SearchBar extends React.Component{
 }
 
 class ComponentSingle extends React.Component{
+    // eslint-disable-next-line
     constructor(props){
         super(props)
+
     }
     render(){
         return(
@@ -36,6 +38,7 @@ class ComponentSingle extends React.Component{
 }
 
 class Components extends React.Component{
+    // eslint-disable-next-line
     constructor(props){
         super(props)
     }
@@ -61,7 +64,6 @@ class Components extends React.Component{
 export default class Search extends React.Component{
     constructor(props){
         super(props)
-        const components = this.props.components
         this.state = {filter : ''}
         this.handleSearchChange = this.handleSearchChange.bind(this)
     }

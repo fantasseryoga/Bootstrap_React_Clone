@@ -1,5 +1,5 @@
 import React from 'react'
-import {Nav, Navbar,NavDropdown,Row,Col} from 'react-bootstrap'
+import {Nav, Navbar,NavDropdown } from 'react-bootstrap'
 import logo from '../img/rb-logo.svg'
 import github from '../img/github.png'
 import discord from '../img/discord.png'
@@ -14,6 +14,7 @@ export default class Header extends React.Component{
                             src={logo}
                             width={30}
                             height={30}
+                            alt='logo'
                         />
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls='basic-navbar-nav'/>
@@ -33,10 +34,12 @@ export default class Header extends React.Component{
                                 src={github}
                                 height={30}
                                 width={30} 
+                                alt='gitHub'
                             />
                         </Nav.Link>
                         <Nav.Link className='navCustom' href='https://diskord.net/news'>
                             <img 
+                                alt='Discord'
                                 className='invert'
                                 src={discord}                         
                                 width={30}

@@ -1,5 +1,4 @@
 import React from 'react'
-import Introduction from './Introduction'
 import {Card, Button, Jumbotron} from 'react-bootstrap'
 
 export default class WhyRB extends React.Component{

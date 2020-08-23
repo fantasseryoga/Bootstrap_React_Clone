@@ -32,7 +32,7 @@ export default class Introduction extends React.Component{
                         <div className='Campil'>
                             <span className='purple'>import</span> Button <span className='purple'>from </span> 
                             <span className='green'>'react-bootstrap/Button';</span><br/><br/>
-                            <span className='grey'>// or less idealy<br/></span>
+                            <span className='grey'>{'// or less idealy'}<br/></span>
                             <span className='purple'>import</span> <span className='blue'>{'{ Button }'}</span> <span className='purple'>from</span> 
                             <span className='green'> 'react-bootstrap';</span>
                         </div>
@@ -98,13 +98,13 @@ export default class Introduction extends React.Component{
                         <h6>
                             If you wish to customize the Bootstrap theme or any Bootstrap variables you can create a custom Sass file:<br/>
                             <div className='Campil'>
-                                <span className='grey'>/* The following block can be included in a custom.scss */</span><br/><br/>
-                                <span className='grey'>/* make the customizations */</span><br/>
+                                <span className='grey'>{'/* The following block can be included in a custom.scss */'}</span><br/><br/>
+                                <span className='grey'>{'/* make the customizations */'}</span><br/>
                                 $theme-colors: <span className='blue'>(</span><br/>
                                 <span className='green'>    "info":</span> tomato,<br/>
                                 <span className='green'>    "danger":</span> teal<br/>
                                 <span className='blue'>)"</span><br/><br/>
-                                <span className='grey'>/* import bootstrap to set changes */</span><br/>
+                                <span className='grey'>{'/* import bootstrap to set changes */'}</span><br/>
                                 @<span className='purple'>import </span><span className='green'>"~bootstrap/scss/bootstrap";</span>
                             </div>
                             ... And import it on the main Sass file
@@ -138,7 +138,7 @@ export default class Introduction extends React.Component{
                     <div className='Section' id='browsersupport'>
                         <h2>Browser support</h2>
                         <h6>
-                            We aim to support all browsers supported by both <a className='text-primary'>React</a> and <a className='text-primary'>Bootstrap</a>.
+                            We aim to support all browsers supported by both <sapn className='text-primary'>React</sapn> and <span className='text-primary'>Bootstrap</span>.
                         </h6>
                     </div>
                 </div>
